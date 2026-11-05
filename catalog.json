@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "repository": "Maomeng2333/skills",
+  "updated_at": "2026-11-05",
+  "categories": ["文案营销", "图片设计", "视频音频", "办公表格", "文档演示", "程序开发", "效率工具", "其他"],
+  "resources": [
+    {
+      "id": "github-skill-library",
+      "name": "GitHub 技能库管理",
+      "kind": "skill",
+      "categories": ["效率工具"],
+      "summary": "搜索 GitHub 文件与技能，维护个人资源目录，并安装或更新选中的 Codex 技能。",
+      "source": {
+        "repository": "Maomeng2333/skills",
+        "path": "skills/github-skill-library",
+        "ref": "main",
+        "url": "https://github.com/Maomeng2333/skills/tree/main/skills/github-skill-library"
+      },
+      "storage": "authored",
+      "local_repository_path": "skills/github-skill-library",
+      "version": "0.1.0",
+      "license": "NOASSERTION",
+      "added_at": "2026-11-05",
+      "reviewed_at": "2026-11-05",
+      "requirements": ["Codex", "已连接且有目标仓库权限的 GitHub 插件", "本机技能安装入口"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub 技能库管理"
+  short_description: "查找 GitHub 文件与技能，分类收录到个人仓库并安装到 Codex"
+  default_prompt: "使用 $github-skill-library 查找适合我当前任务的 GitHub 技能，筛选后收录到个人技能库，并安装选中的兼容技能。"
