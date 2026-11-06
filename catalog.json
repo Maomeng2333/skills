@@ -1,14 +1,25 @@
 {
   "schema_version": 1,
   "repository": "Maomeng2333/skills",
-  "updated_at": "2026-11-05",
-  "categories": ["文案营销", "图片设计", "视频音频", "办公表格", "文档演示", "程序开发", "效率工具", "其他"],
+  "updated_at": "2026-11-06",
+  "categories": [
+    "文案营销",
+    "图片设计",
+    "视频音频",
+    "办公表格",
+    "文档演示",
+    "程序开发",
+    "效率工具",
+    "其他"
+  ],
   "resources": [
     {
       "id": "github-skill-library",
       "name": "GitHub 技能库管理",
       "kind": "skill",
-      "categories": ["效率工具"],
+      "categories": [
+        "效率工具"
+      ],
       "summary": "搜索 GitHub 文件与技能，维护个人资源目录，并安装或更新选中的 Codex 技能。",
       "source": {
         "repository": "Maomeng2333/skills",
@@ -22,7 +33,35 @@
       "license": "NOASSERTION",
       "added_at": "2026-11-05",
       "reviewed_at": "2026-11-05",
-      "requirements": ["Codex", "已连接且有目标仓库权限的 GitHub 插件", "本机技能安装入口"]
+      "requirements": [
+        "Codex",
+        "已连接且有目标仓库权限的 GitHub 插件",
+        "本机技能安装入口"
+      ]
+    },
+    {
+      "id": "find-skills-combo",
+      "name": "任务拆解与技能组合查找",
+      "kind": "skill",
+      "categories": [
+        "效率工具"
+      ],
+      "summary": "把复杂任务拆成子任务，逐项查找技能并比较覆盖程度，给出效果优先和少装技能两套组合。",
+      "source": {
+        "repository": "agentscope-ai/OpenJudge",
+        "path": "skills/find-skills-combo",
+        "ref": "42a396eab4658fd37aa0a7933a08edd70b7fbc8c",
+        "url": "https://github.com/agentscope-ai/OpenJudge/tree/42a396eab4658fd37aa0a7933a08edd70b7fbc8c/skills/find-skills-combo"
+      },
+      "storage": "linked",
+      "license": "Apache-2.0",
+      "added_at": "2026-11-06",
+      "reviewed_at": "2026-11-06",
+      "requirements": [
+        "Codex",
+        "Node.js 与 Skills CLI（npx 或等价入口）",
+        "联网搜索"
+      ]
     }
   ]
 }
