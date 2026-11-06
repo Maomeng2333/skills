@@ -62,6 +62,33 @@
         "Node.js 与 Skills CLI（npx 或等价入口）",
         "联网搜索"
       ]
+    },
+    {
+      "id": "poster-workflow",
+      "name": "海报自动生成工作流",
+      "kind": "skill",
+      "categories": [
+        "图片设计",
+        "效率工具"
+      ],
+      "summary": "在当前对话中，从主题和素材自动整理文案、识别海报类型、生成设计、核对事实并导出图片；支持精确排版。",
+      "source": {
+        "repository": "Maomeng2333/skills",
+        "path": "skills/poster-workflow",
+        "ref": "main",
+        "url": "https://github.com/Maomeng2333/skills/tree/main/skills/poster-workflow"
+      },
+      "storage": "authored",
+      "local_repository_path": "skills/poster-workflow",
+      "version": "0.1.0",
+      "license": "NOASSERTION",
+      "added_at": "2026-11-06",
+      "reviewed_at": "2026-11-06",
+      "requirements": [
+        "Codex",
+        "当前内置 imagegen 图像能力",
+        "精确排版可选：Node.js、Playwright 和 Chromium 系浏览器"
+      ]
     }
   ]
 }

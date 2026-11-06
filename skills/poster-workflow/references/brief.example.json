@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "poster-demo",
+  "type": "brand",
+  "size": { "width": 1080, "height": 1440 },
+  "layout": "hero",
+  "badge": "海报工作流 · 演示",
+  "title": "一个想法\n一张海报",
+  "subtitle": "给主题和素材，让创意成为看得见的画面。",
+  "bullets": ["产品 · 活动 · 课程", "招聘 · 节日 · 品牌"],
+  "details": [
+    { "label": "输入", "value": "主题 / 文案 / 可选素材" },
+    { "label": "输出", "value": "海报图片 / 检查记录" }
+  ],
+  "cta": "说出你的下一张海报主题",
+  "footer": "演示内容 · 非真实活动广告",
+  "theme": { "background": "#f4f0e8", "ink": "#18353b", "accent": "#e56340", "muted": "#597075" },
+  "assets": {}
+}
